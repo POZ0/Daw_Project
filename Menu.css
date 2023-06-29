@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'Lilia';
+    src: url('Fonts/Laila-Light.ttf');
+}
+@font-face {
+    font-family: 'raul';
+    src: url('Fonts/Hensa.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+background-size: cover;
+background: #626263;
+position: relative;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+.Logo{
+    margin: 0 120px;
+
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px  0px;
+    background-color: #131417;
+    width: 100%;
+    height: 130px;
+}
+nav a {
+	color: #ffffff;
+    font-family: 'Lilia', sans-serif;
+    font-style: light;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    z-index: 1;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);   
+}
+nav i{
+    color: #ffffff;
+    margin: 0 20px;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+nav .aaa{
+    margin-left: 200px;
+}
+
+.Products{
+    width: 100%;
+}
+.Products h3{
+    color: white;
+    font-family: 'Lilia';
+    font-weight: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 20px;
+
+}
+.filter{
+    background: rgba(217, 217, 217, 0.43);
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+.filter h2{
+    color: white;
+    font-family: 'Lilia';
+    font-weight: 10px;
+    margin-top: 5px;
+    margin-left: 120px;
+    
+}
+.menuRow{
+    width: 100%;
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuRow h1{
+    color: white;
+    font-family: 'Lilia';
+    font-weight: 10px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.Row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+
+}
+.MenuElement{
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 30px;
+    box-shadow: inset 0px -59px 71px 8px #131417;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #000000 100%) ,url('Salamon.jpg') ; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200%;
+}
+.MenuElement img{
+    max-width: 160%;
+    height: 160%;
+    z-index: -1;
+}
+.blak{
+    width: 110%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #000000 100%);
+    margin-right: -449px;
+}
+.MenuElement h1{
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    left: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.MenuElement h2{
+    position: absolute;
+    z-index: 1;
+    bottom: 17px;
+    left: 15px;
+    color: white;
+    font-family: 'Laila', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.MenuElement h3{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 60px;
+    color: white;
+    font-family: 'Lilia';
+    font-size: 25px;
+
+}
+.bbb{
+    position: absolute;
+    z-index: 1;
+    bottom: 17px;
+    right: 20px;
+    color: #EAB42A;
+    font-size: 25px;
+}
+.trialeft{
+    display: flex;
+    color: #000000;
+    flex-direction: column;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-right: -8%;
+    transform: rotate(-90deg);
+    
+}
+.triaright{
+    color: #000000;
+    margin-right: 10%;
+    font-size: 30px;
+    margin-left: -8%;
+    transform: rotate(90deg);
+}
+.logo-footer {
+    color: #FEF9F9;
+    font-family: 'raul';
+    font-size: 40px;
+    margin: 50px 50px;
+}
+.logo-footer h3 {
+    font-family: 'Lilia';
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+footer{
+    font-family: 'Lilia';
+    background-color: black;
+    width: 100%;
+    height: 309px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middlefooter{
+    color: white;
+    margin-top: 60px;
+
+}
+.endfooter{
+    color: white;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.zyada{
+    background-color: black;
+    width: 100%;
+    height: 40rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-blend-mode: overlay;
+    box-shadow: inset 3px -20px 77px 31px rgba(0, 0, 0, 0.77);
+}
+.zyada .text{
+    font-family: 'Lilia';
+    color: white;
+    margin-left: 9rem;
+    font-size: 30px;
+}
+.moresection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.moresection button {
+    width: 160px;
+    height: 50px;
+    box-shadow: inset 2px 2px 2px rgba(223, 223, 223, 0.34);
+    backdrop-filter: blur(2px);
+    background: rgba(173, 173, 173, 0.05);
+    border-radius: 25px;
+    border: none;
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #FFFFFF;
+}
+.fu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+.fu .MenuElement{
+    width: 60vh;
+    height: 60vh;
+}
+.fu .fa-caret-left{
+    font-size: 70px;
+    margin-top: 25vh;
+    
+
+}
+.fu .fa-caret-right{
+    font-size: 70px;
+    margin-top: 25vh;
+    
+  
+}
+.oneComponent{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.fa-caret-left{
+    font-size: 50px;
+    margin-top: 8%;
+}
+.fa-caret-right{
+    font-size: 50px;
+    margin-top: 8%;
+}
+.ElementName{
+    position: absolute;
+    z-index: 1;
+    bottom: 17px;
+    left: 15px;
+    color: white;
+    font-family: 'Laila', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
